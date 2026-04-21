@@ -22,7 +22,7 @@ The output includes historical regime classification back to the early 2000s, mu
 | Initial Jobless Claims (YoY) | ICSA | Labor market conditions with trend removed |
 | Industrial Production (YoY) | INDPRO | Real economic activity with trend removed |
 
-**Why these five?** Each indicator captures a structurally distinct dimension of the cycle: yield curve shape, inflation regime, credit conditions, labor market, and real output. Including both T10Y2Y and T10Y3M would double-count the yield curve signal, so T10YIE was chosen over T10Y3M.
+Each indicator captures a structurally distinct dimension of the cycle: yield curve shape, inflation regime, credit conditions, labor market, and real output. Including both T10Y2Y and T10Y3M would double-count the yield curve signal, so T10YIE was chosen over T10Y3M.
 
 ---
 
