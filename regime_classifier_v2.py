@@ -487,15 +487,16 @@ for row_idx, (asset_label, stats_df) in enumerate(all_stats.items()):
             f"{asset_label}\n{metric_title}",
             fontsize=10, fontweight="bold"
         )
-        ax.tick_params(axis="x", rotation=20, labelsize=8)
+        ax.tick_params(axis="x", rotation=30, labelsize=7)
         ax.grid(True, axis="y", alpha=0.3)
         ax.axhline(0, color="black", linewidth=0.7, alpha=0.5)
 
 plt.suptitle(
-    "Multi-Asset Performance by Economic Regime  —  Rolling Z-Score Model",
-    fontsize=14, fontweight="bold", y=1.01
+    "Multi-Asset Performance by Economic Regime  |  Rolling Z-Score Model",
+    fontsize=13, fontweight="bold",
 )
-plt.tight_layout()
+plt.tight_layout(rect=[0, 0, 1, 0.94])
+plt.subplots_adjust(hspace=0.55, wspace=0.35)
 plt.show()
 
 
